@@ -51,7 +51,7 @@
   ],
   "dependencies": {
     "@loopback/authentication": "^3.2.1",
-    "@loopback/authentication-passport": "^1.0.3",
+    "@loopback/authentication-passport": "^5.0.3",
     "@loopback/boot": "^1.5.9",
     "@loopback/cli": "^1.25.1",
     "@loopback/context": "^1.23.3",
