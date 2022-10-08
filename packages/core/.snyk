@@ -1,0 +1,140 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@loopback/rest > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - openid-client > lodash:
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/rest-explorer > @loopback/rest > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - loopback-connector-postgresql > strong-globalize > lodash:
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/service-proxy > loopback-datasource-juggler > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/cli > inquirer > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/cli > yeoman-generator > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/rest-explorer > @loopback/rest > @loopback/openapi-v3 > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/service-proxy > loopback-datasource-juggler > async > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/cli > loopback > async > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/cli > yeoman-generator > async > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - loopback-connector-postgresql > loopback-connector > strong-globalize > lodash:
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/rest > strong-error-handler > strong-globalize > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/service-proxy > loopback-datasource-juggler > strong-globalize > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/cli > loopback > strong-globalize > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/boot > @loopback/service-proxy > loopback-datasource-juggler > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/cli > loopback > loopback-datasource-juggler > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/cli > yeoman-generator > yeoman-environment > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/rest > @loopback/openapi-v3 > @loopback/repository-json-schema > @loopback/repository > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/boot > @loopback/service-proxy > loopback-datasource-juggler > async > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/cli > loopback > loopback-datasource-juggler > async > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/cli > loopback > loopback-phase > async > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/service-proxy > loopback-datasource-juggler > loopback-connector > strong-globalize > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/rest-explorer > @loopback/rest > strong-error-handler > strong-globalize > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/cli > loopback > strong-remoting > strong-globalize > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/boot > @loopback/service-proxy > loopback-datasource-juggler > strong-globalize > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/cli > loopback > loopback-datasource-juggler > strong-globalize > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/cli > loopback > loopback-phase > strong-globalize > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/openapi-v3 > @loopback/repository-json-schema > @loopback/repository > loopback-datasource-juggler > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/cli > loopback > loopback-connector-remote > loopback-datasource-juggler > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/cli > loopback > strong-remoting > jayson > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/cli > yeoman-generator > yeoman-environment > grouped-queue > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/cli > yeoman-generator > yeoman-environment > inquirer > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/rest-explorer > @loopback/rest > @loopback/openapi-v3 > @loopback/repository-json-schema > @loopback/repository > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/openapi-v3 > @loopback/repository-json-schema > @loopback/repository > loopback-datasource-juggler > async > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/cli > loopback > loopback-connector-remote > loopback-datasource-juggler > async > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/cli > loopback > strong-remoting > loopback-phase > async > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/boot > @loopback/service-proxy > loopback-datasource-juggler > loopback-connector > strong-globalize > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/cli > loopback > loopback-datasource-juggler > loopback-connector > strong-globalize > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/authentication-passport > @loopback/authentication > @loopback/rest > strong-error-handler > strong-globalize > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/cli > loopback > strong-remoting > strong-error-handler > strong-globalize > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/cli > loopback > loopback-connector-remote > strong-remoting > strong-globalize > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/openapi-v3 > @loopback/repository-json-schema > @loopback/repository > loopback-datasource-juggler > strong-globalize > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/cli > loopback > loopback-connector-remote > loopback-datasource-juggler > strong-globalize > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/cli > loopback > strong-remoting > loopback-phase > strong-globalize > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/rest > @loopback/openapi-v3 > @loopback/repository-json-schema > @loopback/repository > loopback-datasource-juggler > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/cli > loopback > loopback-connector-remote > strong-remoting > jayson > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/rest-explorer > @loopback/rest > @loopback/openapi-v3 > @loopback/repository-json-schema > @loopback/context > @loopback/metadata > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/rest > @loopback/openapi-v3 > @loopback/repository-json-schema > @loopback/repository > loopback-datasource-juggler > async > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/cli > loopback > loopback-connector-remote > strong-remoting > loopback-phase > async > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/openapi-v3 > @loopback/repository-json-schema > @loopback/repository > loopback-datasource-juggler > loopback-connector > strong-globalize > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/cli > loopback > loopback-connector-remote > loopback-datasource-juggler > loopback-connector > strong-globalize > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/cli > loopback > loopback-connector-remote > strong-remoting > strong-error-handler > strong-globalize > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/rest > @loopback/openapi-v3 > @loopback/repository-json-schema > @loopback/repository > loopback-datasource-juggler > strong-globalize > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/cli > loopback > loopback-connector-remote > strong-remoting > loopback-phase > strong-globalize > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/rest-explorer > @loopback/rest > @loopback/openapi-v3 > @loopback/repository-json-schema > @loopback/repository > loopback-datasource-juggler > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/rest-explorer > @loopback/rest > @loopback/openapi-v3 > @loopback/repository-json-schema > @loopback/repository > @loopback/context > @loopback/metadata > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/rest-explorer > @loopback/rest > @loopback/openapi-v3 > @loopback/repository-json-schema > @loopback/repository > loopback-datasource-juggler > async > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/rest > @loopback/openapi-v3 > @loopback/repository-json-schema > @loopback/repository > loopback-datasource-juggler > loopback-connector > strong-globalize > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/rest-explorer > @loopback/rest > @loopback/openapi-v3 > @loopback/repository-json-schema > @loopback/repository > loopback-datasource-juggler > strong-globalize > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/authentication-passport > @loopback/authentication > @loopback/rest > @loopback/openapi-v3 > @loopback/repository-json-schema > @loopback/repository > loopback-datasource-juggler > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/rest-explorer > @loopback/rest > @loopback/openapi-v3 > @loopback/repository-json-schema > @loopback/repository > @loopback/core > @loopback/context > @loopback/metadata > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/authentication-passport > @loopback/authentication > @loopback/rest > @loopback/openapi-v3 > @loopback/repository-json-schema > @loopback/repository > loopback-datasource-juggler > async > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/rest-explorer > @loopback/rest > @loopback/openapi-v3 > @loopback/repository-json-schema > @loopback/repository > loopback-datasource-juggler > loopback-connector > strong-globalize > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/authentication-passport > @loopback/authentication > @loopback/rest > @loopback/openapi-v3 > @loopback/repository-json-schema > @loopback/repository > loopback-datasource-juggler > strong-globalize > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/authentication-passport > @loopback/authentication > @loopback/rest > @loopback/openapi-v3 > @loopback/repository-json-schema > @loopback/repository > @loopback/core > @loopback/context > @loopback/metadata > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
+    - '@loopback/authentication-passport > @loopback/authentication > @loopback/rest > @loopback/openapi-v3 > @loopback/repository-json-schema > @loopback/repository > loopback-datasource-juggler > loopback-connector > strong-globalize > lodash':
+        patched: '2022-10-08T14:55:29.375Z'
